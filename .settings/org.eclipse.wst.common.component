@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+        
+    <wb-module deploy-name="JavaWebApplication">
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/resources"/>
+        <wb-resource deploy-path="/WEB-INF/lib/models" source-path="/models"/>
+        <dependent-module archiveName="mysql-connector-java-8.0.20.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/ty/Downloads/mysql-connector-java-8.0.20.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="lucene-core-7.2.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/ty/Downloads/lucene-core-7.2.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="lucene-queryparser-7.2.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/ty/Downloads/lucene-queryparser-7.2.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="lucene-analyzers-common-7.2.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/ty/Downloads/lucene-analyzers-common-7.2.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="VnCoreNLP-1.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/ty/Desktop/VnCoreNLP-1.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+                
+        <property name="context-root" value="JavaWebApplication"/>
+                
+        <property name="java-output-path" value="/JavaWebApplication/target/classes"/>
+            
+    </wb-module>
+    
+</project-modules>
